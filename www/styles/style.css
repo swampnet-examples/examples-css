@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: #d0e4fe;
 }
 
@@ -14,12 +15,15 @@ h2 {
 }
 
 p {
-    font-family: "Times New Roman";
     font-size: 20px;
 }
 
 p.highlight {
     color: darkred;    
+}
+
+p.smallprint {
+    font-size: xx-small;
 }
 
 div.bob {
