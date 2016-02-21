@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #d0e4fe;
+    font-weight: bolder;
 }
 
 h1 {
@@ -26,12 +27,15 @@ p.smallprint {
     font-size: xx-small;
 }
 
-div.bob {
-    background-color: #aaaaff;
+div.padded {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 100px;
-    padding-left: 50px;    
+    padding-left: 50px;        
+}
+
+div.bob {
+    background-color: #aaaaff;
 }
 
 #list-01 ul {
@@ -42,4 +46,24 @@ div.bob {
 #list-02 ul {
     list-style-type: circle;
     color: darkmagenta;
+}
+
+span[data-test] {
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+span[data-test="low"] {
+    color: green;    
+}
+
+span[data-test="medium"] {
+    color: orange;    
+}
+
+span[data-test="high"] {
+    color: red;    
 }
